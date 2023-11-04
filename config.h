@@ -95,7 +95,7 @@ float alpha = 0.9;
 static int bellvolume = 0;
 
 /* default TERM value */
-char *termname = "org.kde.konsole";
+char *termname = "terminal";
 char *termenv = "st-256color";
 
 
