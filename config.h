@@ -95,7 +95,9 @@ float alpha = 0.9;
 static int bellvolume = 0;
 
 /* default TERM value */
-char *termname = "st-256color";
+char *termname = "org.kde.konsole";
+char *termenv = "st-256color";
+
 
 /*
  * spaces per tab
