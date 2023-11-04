@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=14:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=22:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
@@ -119,26 +119,26 @@ static const char *colorname[] = {
   /* 8 normal colors */
   [0] = "#000000", /* black   */
   [1] = "#ff5555", /* red     */
-  [2] = "#50fa7b", /* green   */
+  [2] = "#42BF40", /* green   */
   [3] = "#f1fa8c", /* yellow  */
-  [4] = "#bd93f9", /* blue    */
+  [4] = "#DF9500", /* blue    */
   [5] = "#ff79c6", /* magenta */
-  [6] = "#8be9fd", /* cyan    */
+  [6] = "#ffe8ae", /* cyan    */
   [7] = "#bbbbbb", /* white   */
 
   /* 8 bright colors */
   [8]  = "#696969", /* black   */
   [9]  = "#ff5555", /* red     */
-  [10] = "#50fa7b", /* green   */
+  [10] = "#42BF40", /* green   */
   [11] = "#f1fa8c", /* yellow  */
-  [12] = "#bd93f9", /* blue    */
+  [12] = "#DF9500", /* blue    */
   [13] = "#ff79c6", /* magenta */
-  [14] = "#8be9fd", /* cyan    */
+  [14] = "#ffe8ae", /* cyan    */
   [15] = "#dddddd", /* white   */
 
   /* special colors */
-  [256] = "#222D31", /* background */
-  [257] = "#B5B5B5", /* foreground */
+  [256] = "#000000", /* background */
+  [257] = "#dabea6", /* foreground */
 };
 
 /*
