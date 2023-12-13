@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=24:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=25:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
@@ -122,21 +122,21 @@ static const char *colorname[] = {
   [0] = "#000000", /* black   */
   [1] = "#ff5555", /* red     */
   [2] = "#42BF40", /* green   */
-  [3] = "#f1fa8c", /* yellow  */
-  [4] = "#DF9500", /* blue    */
-  [5] = "#ff79c6", /* magenta */
-  [6] = "#ccbbb3", /* cyan    */
-  [7] = "#bbbbbb", /* white   */
+  [3] = "#f1fa8c", /* yellow-green  */
+  [4] = "#DF9500", /* orange    */
+  [5] = "#da69a9", /* pink */
+  [6] = "#ccbbb3", /* gray-yellow    */
+  [7] = "#bbbbbb", /* gray   */
 
   /* 8 bright colors */
-  [8]  = "#696969", /* black   */
+  [8]  = "#DF9500", /* orange*/
   [9]  = "#ff5555", /* red     */
   [10] = "#42BF40", /* green   */
   [11] = "#f1fa8c", /* yellow  */
-  [12] = "#DF9500", /* blue    */
-  [13] = "#ff79c6", /* magenta */
-  [14] = "#ccbbb3", /* cyan    */
-  [15] = "#dddddd", /* white   */
+  [12] = "#DF9500", /* orange    */
+  [13] = "#ff79c6", /* pink */
+  [14] = "#ccbbb3", /* gray-red    */
+  [15] = "#dddddd", /* white-gray   */
 
   /* special colors */
   [256] = "#000000", /* background */
